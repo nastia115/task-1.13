@@ -1,0 +1,84 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+//Задача 23
+int a,b,c;
+   cout<<"Input number a:"<<endl;
+   cin>>a;
+    cout<<"Input number b:"<<endl;
+   cin>>b;
+    cout<<"Input number c:"<<endl;
+   cin>>c;
+   a=a+b+c;
+   b=a-b-c;
+   c=a-b-c;
+   a=a-b-c;
+   cout<<"New a:"<<+a<<endl;
+   cout<<"New b:"<<+b<<endl;
+   cout<<"New c:"<<+c<<endl;
+}
+//Задача 24
+ int a,b,c,d;
+   cout<<"Input number a:"<<endl;
+   cin>>a;
+    cout<<"Input number b:"<<endl;
+   cin>>b;
+    cout<<"Input number c:"<<endl;
+   cin>>c;
+   d=a;
+   a=c;
+   c=b;
+   b=d;
+   cout<<"New a:"<<+a<<endl;
+   cout<<"New b:"<<+b<<endl;
+   cout<<"New c:"<<+c<<endl;}
+Задача 25
+#include <cmath>
+#include <iostream>
+using namespace std;
+int main() 
+{                                              
+ double x,y;
+	cout <<"Input peremetr x";
+	cin>>x;
+	y=3*pow (x,6) -6*pow (x,2)-7;
+	cout<<"f="<<y<<"_"<<endl;
+ }
+Задача 26
+#include <cmath>
+#include <iostream>
+using namespace std;
+int main() 
+{              
+double x,y;
+	cout <<"Input peremetr x";
+	cin>>x;
+	y=4*pow((x-3),6)-7*pow((x-3),3)+2;
+	cout<<"f="<<y<<"_"<<endl;
+}
+
+Задача 31
+#include <iostream>
+using namespace std;
+int main()
+{
+float F=0;
+    float C=0;
+    cout<<"Input temperature farengaite";
+    cin>>F;
+    C = ( F-32 ) * 5 / 9;
+    cout<<"Cels"<<C;
+ }
+Задача 31
+int x,a,y;
+	cout<<"Buy sweets:"<<endl;
+	cin>>x;
+	cout<<"Paid money:"<<endl; 
+	cin>>a;
+		cout<<"Kilogram sweets:"<<endl; 
+	cin>>y;
+	float price;
+	price=a/x; 
+	cout<<"Price:"<<price<<endl;
+	cout<<"Price Y:"<<y*price<<endl;} 
